@@ -8,6 +8,8 @@ Configure permissions using [`%login`](https://github.com/niblyx-malnus/login) i
 
 Can use html and css.
 
+Toy project. Rough around the edges.
+
 ## Installation
 1. Clone this repo.
 2. Boot up a ship (fakezod or moon or whatever you use).
