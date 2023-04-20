@@ -12,6 +12,9 @@ html and css files stored in `/app/files/this/is/a/path.html` will be available 
 
 Use the `config.sites-0` file to gate specific paths (and all their subpaths) according to a `bloc` using `%login`.
 
+The `config.sites-0` is a list of `(pair path (unit bloc-path))` where the `path` corresponds to the path within
+`/app/files` and the `(unit bloc-path)` is the `%login` `bloc-path` associated with the grouping you want to give access to your site. Anything not covered by the `config.sites-0` will be public. (Actually I should probably make this so that it's ONLY YOU in the typical way...)
+
 Toy project. Rough around the edges.
 
 ## Installation
