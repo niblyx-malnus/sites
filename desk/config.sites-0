@@ -1,0 +1,7 @@
+:: - each path on the left corresponds to a folder subpath in /app/files
+:: - each (unit bloc-path) on the right corresponds to the login permissions 
+::     with %login
+::
+:~  [/public-site ~]  
+    [/uf-only `/landscape/groups/~halbex-palheb/uf-public]
+==
