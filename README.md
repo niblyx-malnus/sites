@@ -8,6 +8,10 @@ Configure permissions using [`%login`](https://github.com/niblyx-malnus/login) i
 
 Can use html and css.
 
+html and css files stored in `/app/files/this/is/a/path.html` will be available at: `[your-domain]/site/this/is/a/path[.html]`
+
+Use the `config.sites-0` file to gate specific paths (and all their subpaths) according to a `bloc` using `%login`.
+
 Toy project. Rough around the edges.
 
 ## Installation
