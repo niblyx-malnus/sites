@@ -133,6 +133,9 @@
     =-  ?^(- - [- %html])
     =/  calp  (cook crip (star alp))
     (rash (rear site) ;~(pose ;~((glue dot) calp calp) calp))
+  :: files whose names end in - will be ignored
+  ::
+  ?:  =('-' (rear (trip nem)))  ~&(%file-ignored (four-oh-four eyre-id))
   ::
   =/  [content-type=@t =path]
     ?+  ext    !!
