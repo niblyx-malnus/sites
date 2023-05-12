@@ -139,6 +139,9 @@
   ::
   =/  [content-type=@t =path]
     ?+  ext    !!
+        %'js'
+      ['text/javascript; charset=utf-8' (en-path site /[nem]/js)]
+      ::
         %'css'
       ['text/css; charset=utf-8' (en-path site /[nem]/css)]
       ::
